@@ -10,6 +10,6 @@ public class Main {
 //        System.out.println(journal.content);
         var analysis = new Analysis();
         analysis.setProperties("tokenize ssplit pos lemma");
-        analysis.testAnalyze("Ye are the yeoman cat feline parents parent ancestors family god.");
+        analysis.testAnalyze("Who is the man in the black hat? Forfeit your land or pay the taxes");
     }
 }

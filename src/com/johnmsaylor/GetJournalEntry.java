@@ -1,5 +1,5 @@
 package com.johnmsaylor;
 
-public interface Input {
+public interface GetJournalEntry {
     String getJournalEntry();
 }

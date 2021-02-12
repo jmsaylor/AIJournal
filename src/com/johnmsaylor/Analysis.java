@@ -30,7 +30,8 @@ public class Analysis {
 
         int counter = 0;
         for (var pos : posTags) {
-            if (!pos.equals("DT") || !pos.equals("//")) {
+            //need to add other POS tags
+            if (!pos.equals("DT")) {
                 var word = doc.sentences().get(0).tokens().get(counter);
                 System.out.println(word.lemma());
             }

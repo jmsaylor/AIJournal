@@ -12,9 +12,4 @@ public class Journal {
         this.content = content;
     }
 
-    public void writeJournalEntry(Input input) {
-        System.out.println("Your Journal - " + entryDateTime.toString());
-        this.content = input.getJournalEntry();
-    }
-
 }
